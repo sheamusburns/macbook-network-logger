@@ -1,6 +1,7 @@
 <!-- 
-must put this file in /Library/LaunchDaemons
+put this file in /Library/LaunchDaemons
 chown to root:wheel
+make sure python3 is installed in usr/local/bin
  -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -12,8 +13,8 @@ chown to root:wheel
 	<string>spb.mblocator</string>
 	<key>ProgramArguments</key>
 	<array>
-		<sting>/usr/bin/python</sting>
-		<string>/Users/sburns/Code/mbLocator/test.py</string>
+		<sting>/usr/local/bin/python3</sting>
+		<string>/Users/project/folder/location/test.py</string> <!-- Change value you to your project folder location -->
 	</array>
 	<key>WatchPaths</key>
 	<array>
