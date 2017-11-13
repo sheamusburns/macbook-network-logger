@@ -1,4 +1,4 @@
-# macbook locator
+# Macbook-Network-Logger
 
 When your Mac connects to a new network, this tool checks if it's the default network that you set. If it's not it logs the Wifi, IP, Hardware, and Location (from IP) info to a firebase db and shows the current a popup dialogue warning with custom text.
 
